@@ -12,3 +12,5 @@ You can, however clone the submodule into this directory.
 
 To build JPEGView and have it automatically find WTL, clone the submodule.  (Alternatively, you can download a zip file from the WTL project page and extract it to a folder named *wtl-sf*)
 
+MN 2025-06-21:
+$ git submodule update --init --recursive

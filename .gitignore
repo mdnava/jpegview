@@ -36,3 +36,24 @@ ipch/
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
+
+## MN 2025-06-21
+## Ignore folders
+\[Container\]/
+\[Workspace\]/
+\[*\]/
+_*/
+[Aa]ssets/
+[Bb]in/
+[Bb]uild/
+node_modules/
+[Vv]endor/
+## .dot folders (Check back this one, particularly in Android dev)
+#.*/
+## Ignore files
+\!*
+*.mnx
+desktop.ini
+
+# WTL dependency (incompatible license)
+deps/WTL-sf/
